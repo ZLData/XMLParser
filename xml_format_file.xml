@@ -1,0 +1,60 @@
+<xml>
+	<source value='测试'>
+		<type value='1'>
+			<datasource url='10.0.245.1：3306' username='' passwd='' spacename=''>
+				<table name='test'/>
+				<table name='rrwqwe'/>
+				<table name='teest'/>
+			</datasource>
+		</type>
+	</source>
+	<source value='人才库'>
+		<type value='1'>
+			<datasource url='10.0.245.1:3306/test' username='sxkeji' passwd='1234' spacename='sxkeji'>				
+			</datasource>
+		</type>
+	</source>
+	<source value='文献库'>
+		<type value='2'>
+			<datasource url='127.0.0.2/wenjian' username='' passwd='' spacename=''>
+			</datasource>
+		</type>
+	</source>
+	<source value='企业库'>
+		<type value='1'>
+			<datasource url='123.233.23.41' username='' passwd='' spacename=''>		
+			</datasource>
+		</type>
+	</source>
+	<source value='项目库'>
+		<type value='1'>
+			<datasource url='28.0.2.123:3306' username='ewq' passwd='projecy' spacename='project'>
+			</datasource>
+		</type>
+	</source>
+	<source value='文献库'>
+		<type value='1'>
+			<datasource url='10.0.0.1:3306/' username='user' passwd='123456' spacename='keji'>
+			</datasource>
+		</type>
+	</source>
+	<destination value='测试'>
+		<type value='1'>
+			<datasource url='10.0.0.245.1' username='test' passwd='test' spacename='test'>
+				<table name='test'>
+					<metadata name='name' type='varchar' length='1000'/>
+				</table>
+			</datasource>
+		</type>
+	</destination>
+	<destination value='人才库'>
+		<type value='1'>
+			<datasource url='124.89.35.79:3306/kejidata' username='keji' passwd='1234' spacename='kejidata'>
+				<table name='expert'>
+					<metadata name='expert_name' type='varchar' length='2000'/>
+					<metadata name='expert_pic' type='varchar' length='2000'/>
+				</table>
+			</datasource>
+		</type>
+	</destination>
+</xml>
